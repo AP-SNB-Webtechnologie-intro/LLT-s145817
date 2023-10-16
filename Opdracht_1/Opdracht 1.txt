@@ -1,12 +1,20 @@
 opdracht 1: Onderwerp Vinden
 [ ] Benoem je onderwerp
-NASA, meer bepaald Voyager 1 and 2, alsook Hubble and James Webb Telescope
+NASA, meer bepaald Voyagermissies, Juno missie, Hubble and James Webb Telescope, ook over één maan van Jupiter (Europa) waar mogelijks Leven kan zijn. En ook over de iconische foto Pale Blue Dot.
+Heb ook al API key van NASA aangevraagd en gekregen, geen idee hoe ik deze moet gebruiken, maar heb die al.
+Ik ga ook een pagina maken met de geschiedenis van NASA.
 
 [ ] Bedenk welke pagina's je nodig hebt
+Reeds aangemaakt als html pagina.
 
 
 [ ] Verzamel de nodige inhoud
 teksten, afbeeldingen, titels, ...
+Groot deel van afbeeldingen al verzameld, allemaal opgeslagen als png file. Dit bestandtype ga ik voor alle afbeeldingen proberen aan te houden.
+
 [ ] Onderzoek stijlen van de concurrentie
 bekijk andere websites die over een gelijkaardig thema gaan
+Verschillende soortgelijke website gevonden, maar nog niet helemaal zeker van de stijl.
+Ik wil het vooral minimalitisch houden, want dat vind ik persoonlijk het mooiste.
+
 
