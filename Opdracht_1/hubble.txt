@@ -1,0 +1,32 @@
+Ruimtetelescoop Hubble
+
+De ruimtetelescoop Hubble gezien vanuit de Space Shuttle Discovery tijdens missie STS-82
+Algemene informatie
+Organisatie 	NASA/ESA
+Lancering 	24 april 1990
+Gelanceerd met 	Space Shuttle Discovery
+Terugkeer 	Na 2030-2040
+Massa 	11.000 kg
+Type omloopbaan 	Lage baan
+Baanhoogte 	569 km
+Omloopduur 	95,42 min
+Type telescoop 	ruimtetelescoop
+Telescoop diameter 	2,4 m
+Brandpuntsafstand 	57,6 m
+Instrumenten
+ACS 	Karteringscamera
+WFC3 	Groothoekcamera
+STIS 	Spectrometer/camera
+NICMOS 	Camera/spectrometer 
+
+
+De ruimtetelescoop Hubble (Hubble Space Telescope, HST) bestaat uit een aantal precisie-instrumenten voor astronomische waarnemingen. 
+Hij is genoemd naar de Amerikaanse astronoom Edwin Hubble en draait sinds de lancering door NASA en ESA op 24 april 1990 als een kunstmaan rond de aarde. 
+De Hubble wordt gebruikt voor optische waarnemingen. 
+De telescoop bezit ook een infraroodcamera. Het was de eerste telescoop van het Great Observatories-programma. 
+Voor observaties in het röntgengolflengtegebied wordt nog gebruikgemaakt van het Chandra X-Ray Observatory. 
+De andere 2 telescopen functioneren niet meer.
+
+Door het ontbreken van een atmosfeer in de ruimte is een ongekend scherpe afbeelding van verre astronomische objecten mogelijk. 
+Een van de bekendste foto's die door de Hubble genomen zijn is van de Pilaren der Creatie in de Adelaarsnevel (M16). 
+Deze foto is volgens veel astronomen de mooiste foto ooit genomen van een object in het heelal. 

@@ -1,0 +1,29 @@
+Juno (ruimtesonde)
+Juno is een Amerikaanse onbemande ruimtevlucht naar de planeet Jupiter, gelanceerd 5 augustus 2011. 
+Deze sonde is het tweede ruimtevaartuig uit NASA's New Frontiers-programma. 
+Sinds 2016 vergaart Juno vanuit een polaire baan informatie over de planeet. In 2021 werd de missie verlengd tot 2025.
+
+Opbouw
+Afmetingen, massa en kosten
+
+Juno bestaat uit een tweedeks hexagonale cilinder met een lengte van 4,50 m bij een diameter van 3,50 m. 
+De sonde heeft tijdens lancering een massa van 3625 kg. Met uitgeklapte zonnepanelen bedraagt de spanwijdte ongeveer 20 m. 
+Bovenop zit de schotelantenne; de wetenschappelijke instrumenten zitten aan de buitenkant. 
+De binnenkant herbergt de tanks voor brandstof, oxidatiemiddel en drijfgas en vluchtgeleiding.
+
+De sterke straling rond Jupiter maakt een stralingsschild onmisbaar om bepaalde technische componenten (zoals communicatie en boordcomputer) te beschermen. 
+In het bovenste cilindergedeelte zit deze gevoelige apparatuur veilig opgeborgen in een titanium kluis van 80 × 80 × 60 cm 
+met wanden tot een cm dikte en een massa van 180 kg. Juno maakt gebruik van gangbare ruimtevaarttechnologie. 
+Dit drukt de kosten, die zo'n 850 miljoen euro bedragen. 
+De kluis beperkt de stralingsdosis waaraan de instrumenten blootstaan tot 25.000 Krad; de instrumenten zijn berekend op het dubbele. 
+Het bovendek van JUNO ontvangt tijdens de missie naar verwachting 11 Mrad. Bovendien moest de kluis grote temperatuurverschillen weerstaan tijdens zijn reis. 
+Dicht bij de zon draaide Juno zijn schotelantenne ernaartoe om de instrumenten aan boord tegen overmatige warmte te beschermen.
+Energievoorziening
+
+Eerdere missies voorbij Mars waren voor elektriciteit aangewezen op RTG's. Door verbeterde zonnecellen kunnen deze bij moderne Jupitervluchten achterwege blijven. Juno beschikt over drie zonnepanelen met gallium/arseen cellen, verdeeld over elf groepen. Twee panelen met vier; de derde slechts drie, aangezien hier wetenschappelijke apparatuur op een mast aan het uiteinde is bevestigd. Deze zonnecellen zijn vergeleken met twintig jaar terug 50% efficiënter en beter bestand tegen kosmische straling. Maar in de omgeving van Jupiter is zeer weinig zonlicht; Jupiter staat vijf maal verder van de zon af dan de Aarde en ontvangt slechts 4% van het zonlicht op Aarde. De afmetingen van de panelen zijn daarom aanzienlijk. Twee panelen zijn 8,90 m lang en 2,90 m breed; de derde is 2,091 m breed door technische beperkingen van de draagraket. Tijdens lancering was elk paneel ingeklapt in vier scharnierende segmenten. Een dikke laag glas beschermt de cellen tegen Joviaanse straling. Het opgewekte vermogen bedraagt in de buurt van Jupiter 460 à 490 W tijdens aankomst. Op het einde van de missie bedraagt dit 420 W. Tijdens de ontwerpfase is reeds ingecalculeerd dat een redelijke mate van uitval van zonnecellen te verwachten is door de sterke straling. De panelen kunnen enigszins worden bijgesteld, om het wijzigende zwaartepunt te corrigeren. Dit geschiedt tijdens manoeuvres, als de sonde brandstof verbruikt. Twee lithium-ion-accu's met een capaciteit van 55 Ah dienen als reserve. Alleen tijdens passage van de Aarde bevond Juno zich gedurende tien minuten in de schaduw. De rest van de missie zijn de panelen voortdurend op de zon gericht.
+Voortstuwing
+
+Juno heeft geen reactiewielen ter stabilisatie. In plaats daarvan draait het vaartuig om zijn as. Dit varieert van een tot vijf keer per minuut, naargelang de missiefase. Voor standregeling en kleine koerscorrecties vertrouwt Juno op twaalf stuurraketjes. De hoofdmotor levert 645 N stuwkracht. De bolvormige tanks met hydrazine en distikstoftetraoxide worden enige weken voor manoeuvres opgewarmd tot bedrijfstemperaturen. Dit voorkomt tevens bevriezing van leidingen. Een beweegbaar schild tegen micrometeorieten klapt enige dagen voor ontbranding weg en draait daarna weer terug om de motor te beschermen.
+Processor
+
+De RAD750 met 256 MB flashgeheugen en 128 MB DRAM is speciaal ontworpen om in een omgeving met hoge straling te functioneren. Het bewees reeds zijn bestaansrecht tijdens de missie van het Mars Science Laboratory. Vergeleken met gangbare processoren kan het ding niet veel, maar is zeer betrouwbaar. Een RAD750 blijft werken in een omgeving met een miljoen maal zoveel straling als dodelijk is voor een mens. Statistisch kan een RAD750 vijftien jaar lang functioneren in de ruimte zonder dat menselijk ingrijpen tijdens een noodgeval is vereist. 
