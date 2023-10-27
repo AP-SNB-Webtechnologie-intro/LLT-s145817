@@ -2,6 +2,12 @@ body {
     padding-top: 100px; /* Navbar blokkeerde eerste h1 element */
 }
 
+figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 
 /* X-Small devices (portrait phones, less than 576px)
