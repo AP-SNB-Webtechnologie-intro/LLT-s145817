@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="d-flex justify-content-center align-items-center">
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -62,9 +62,111 @@
             </div>
         </div>
     </nav>
+    <main>
+        <section class="container-fluid">
+            <article class="col-12 d-flex flex-column justify-content-center align-items-center">
+                <figure>
+                    <img class="img-fluid rounded mx-auto" src="images/rocketlaunch_nasa.png" alt="Spaceship"
+                        title="Launch of NASA's Space Shuttle Enterprise">
+                    <figcaption>Space Shuttle Enterprise</figcaption>
+                    <!--Title is als afbeelding niet kan laden, komt die tekst erop-->
+                </figure>
+                <h1>NASA</h1>
+                <h4>National Aeronautics and Space Administration</h4>
+                <p></p>
+                <p class="text-center col-12 col-xl-6">Opgericht in 1958, heeft de National Aeronautics and Space
+                    Administration (NASA) een leidende rol gespeeld in ruimteonderzoek. Van de historische maanlanding
+                    van Apollo 11 in 1969 tot het baanbrekende Hubble Space Telescope-project en de exploratie van Mars
+                    met rovers, heeft NASA grenzen verlegd en de mensheid dichter bij de sterren gebracht. Door
+                    samenwerkingen, zoals met SpaceX voor ISS-bevoorrading en de ontwikkeling van het Artemis-programma
+                    voor toekomstige maanmissies, blijft NASA de ruimtevaartinnovatie sturen en inspireren.</p>
+                <!--col-xl-4/6 zodat hij op computers mooi centraal staat-->
+            </article>
+            <hr>
+            <!--hr tag voor een lege lijn onderaan mijn table toe te voegen-->
+        </section>
+        <section class="container-fluid col-12 col-xl-4 p-2">
+            <h4>Hier is een lijst van vijf van de bekendste raketten die door NASA zijn gebruikt:</h4>
+            <dl>
+                <dt>Saturn V:</dt>
+                <dd>Dit is waarschijnlijk de meest iconische raket van NASA. Het was de raket die astronauten naar de
+                    maan
+                    bracht tijdens de Apollo-missies. De Saturn V is nog steeds de grootste en krachtigste raket die
+                    ooit
+                    met succes is gelanceerd.</dd>
+                <dt>Space Shuttle:</dt>
+                <dd>Technisch gezien een ruimteveer en geen raket, maar het had vaste-brandstof boosterraketten en een
+                    externe brandstoftank die essentieel waren voor de lancering. Het Space Shuttle-programma duurde van
+                    1981 tot 2011 en omvatte 135 missies.</dd>
+                <dt>Atlas V:</dt>
+                <dd>Hoewel oorspronkelijk ontwikkeld voor het Amerikaanse Ministerie van Defensie, is de Atlas V-raket
+                    ook door NASA gebruikt voor een verscheidenheid aan missies, waaronder het naar de ruimte sturen van
+                    de Curiosity rover naar Mars.</dd>
+                <dt>Falcon 9 en Dragon (van SpaceX)</dt>
+                <dd>Hoewel SpaceX een commercieel bedrijf is, heeft NASA de Falcon 9-raket en het Dragon-ruimtevaartuig
+                    vaak gebruikt als onderdeel van het Commercial Resupply Services-programma om lading naar het
+                    International Space Station (ISS) te brengen.</dd>
+                <dt>SLS (Space Launch System):</dt>
+                <dd>Dit is een modern zwaar-lift lanceersysteem dat door NASA is ontwikkeld voor diepe ruimtemissies,
+                    waaronder bemande missies naar de maan als onderdeel van het Artemis-programma.</dd>
+            </dl>
+        </section>
+        <hr>
+        <!--hr tag voor een lege lijn onderaan mijn table toe te voegen-->
+        <section class="container-fluid col-12 col-xl-4">
+            <table class="table table-striped">
+                <caption>Overzicht NASA missies</caption>
+                <thead>
+                    <tr>
+                        <th class="text-center" scope="col">Jaar</th>
+                        <th class="text-center" scope="col">Evenement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="text-start" scope="row">1958</th>
+                        <td class="text-start">Oprichting van NASA</td>
 
+                    </tr>
+                    <tr>
+                        <th class="text-start" scope="row">1961</th>
+                        <td class="text-start">Eerste mens in de ruimte (Alan Shepard, Freedom 7)</td>
 
+                    </tr>
+                    <tr>
+                        <th class="text-start" scope="row"">1969</th>
+                            <td class=" text-start">Eerste maanlanding (Apollo 11)</td>
 
+                    </tr>
+                    <tr>
+                        <th class="text-start" scope="row">1981</th>
+                        <td class="text-start">Eerste Space Shuttle vlucht (STS-1)</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start" scope="row">1990</th>
+                        <td class="text-start">Lancering van de Hubble Space Telescope</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start" scope="row">2000</th>
+                        <td class="text-start">Permanente bewoning van het ISS begint</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start" scope="row">2012</th>
+                        <td class="text-start">Curiosity rover landt op Mars</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start" scope="row">2020</th>
+                        <td class="text-start">NASA's samenwerking met SpaceX voor Crew Dragon</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start" scope="row">2024</th>
+                        <td class="text-start">(Gepland) Artemis-missie voor terugkeer naar de maan</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+                <!--tfoor voor een lege lijn onderaan mijn table toe te voegen-->
+            </table>
+        </section>
+    </main>
 </body>
-
 </html>
