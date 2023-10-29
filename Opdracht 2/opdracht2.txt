@@ -1,0 +1,18 @@
+opdracht 2: Mock-Ups
+[OK] Werk je pagina's uit in mock-ups
+kleurloos, focus op layout en ruimte
+[OK] Bepaal waar de verzamelde inhoud (uit opdracht 1) moet komen staan
+Ik wil op desktop schermen alles centraal hebben staan en onder elkaar. Zodat op mobiel alles ook mooi onder elkaar komt te staan.
+
+[OK] Bepaal de huisstijl
+navbar altijd bovenaan, tenzij het scherm kleiner wordt, dan krimpt deze tot een dropout menu.
+
+60-30-10 principe: dominante kleur, complementaire kleur, contrast kleur (+ eventuele accent kleur)
+voorlopig nog geen idee over de kleuren. Ik wil het simpel houden, maar wel met thema.
+Ik vind alles wit met donkere accenten wel mooi, maar welke accenten. 
+60% wit
+30% Donkergrijs/zwart
+10% ?
+accentkleur: licht grijs?
+
+Mockup in iPhone mode ook nog toevoegen per pagina
