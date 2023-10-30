@@ -12,7 +12,14 @@ voorlopig nog geen idee over de kleuren. Ik wil het simpel houden, maar wel met 
 Ik vind alles wit met donkere accenten wel mooi, maar welke accenten. 
 60% wit
 30% Donkergrijs/zwart
-10% ?
-accentkleur: licht grijs?
+10% lichtgrijs
+accentkleur: blauw
 
-Mockup in iPhone mode ook nog toevoegen per pagina
+Mockup in iPhone mode ook nog toevoegen voor een aantal pagina's.
+Contact formulier is nog niet zoals het hoort, maar hiervoor weet ik niet of
+ik het mag doen met zo'n menu knop om admin of webdesigner te contacteren of dat deze beide
+een eigen regels moet krijgen.
+Ook moet ik ook nog tekstveld toevoegen waar je kan typen. Maar de stijl is toch al duidelijk denk ik dan.
+
+Al bij al tevreden over het resultaat tot nu toe.
+Ik hoop alleen dat het goed is
