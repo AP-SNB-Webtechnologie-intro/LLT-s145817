@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactpagina</title>
+</head>
+<body>
+    <h1>Contacteer Ons</h1>
+    <p>Vul alstublieft het onderstaande formulier in om contact op te nemen met onze webdesigner of admin.</p>
+
+    <form action="jouwserververwerkingsbestand.php" method="post">
+        <label for="naam">Uw Naam:</label><br>
+        <input type="text" id="naam" name="naam" required><br>
+
+        <label for="email">Uw E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="contactvoor">Contact opnemen voor:</label><br>
+        <select id="contactvoor" name="contactvoor">
+            <option value="webdesigner">Webdesigner</option>
+            <option value="admin">Admin</option>
+        </select><br>
+
+        <label for="bericht">Uw Bericht:</label><br>
+        <textarea id="bericht" name="bericht" rows="4" required></textarea><br>
+
+        <input type="submit" value="Verstuur">
+    </form>
+</body>
+</html>
