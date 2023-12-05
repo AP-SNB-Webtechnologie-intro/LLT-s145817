@@ -1,32 +1,25 @@
-// Vervang 'DEMO_KEY' met je eigen API-sleutel
-const apiKey = 'dObVVK1dLsMAYkW4gk2HX2SlHvqnM4ylAWLWdflQ';
+// URL van de NASA APOD API
+let apiUrl = 'https://api.nasa.gov/planetary/apod?api_key=dObVVK1dLsMAYkW4gk2HX2SlHvqnM4ylAWLWdflQ';
 
-// De URL voor de NASA API
-const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
-
-// Functie om de afbeelding van de dag op te halen
-function fetchNasaPictureOfTheDay() {
-  fetch(apiUrl)
-    .then(response => response.json())
-    .then(data => {
-      displayImage(data);
-    })
-    .catch(error => console.log('Fout bij het ophalen van de NASA-gegevens:', error));
+// Functie om de data van de NASA APOD API op te halen en weer te geven
+function fetchNasaApod() {
+    fetch(apiUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Netwerk respons was niet ok');
+            }
+            return response.json(); 
+        })
+        .then(data => {
+            // Update de HTML-elementen met de titel en afbeelding
+            document.getElementById('apodTitle').textContent = data.title;
+            document.getElementById('apodImage').src = data.url;
+            document.getElementById('apodImage').alt = data.title;
+        })
+        .catch(error => {
+            console.error('Fout bij het ophalen van de NASA APOD data:', error);
+        });
 }
 
-// Functie om de afbeelding en beschrijving weer te geven
-function displayImage(data) {
-  const imageContainer = document.getElementById('nasaImageContainer');
-  const imageElement = document.createElement('img');
-  const descriptionElement = document.createElement('p');
-
-  imageElement.src = data.url;
-  imageElement.alt = data.title;
-  descriptionElement.textContent = data.explanation;
-
-  imageContainer.appendChild(imageElement);
-  imageContainer.appendChild(descriptionElement);
-}
-
-// Roep de functie aan wanneer de pagina laadt
-document.addEventListener('DOMContentLoaded', fetchNasaPictureOfTheDay);
+// Roep de functie aan bij het laden van de pagina
+fetchNasaApod();
