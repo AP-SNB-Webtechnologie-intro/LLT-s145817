@@ -8,7 +8,7 @@ figcaption {
     margin-top: 10px;
 }
 
-.row {
+/* .row {
     display: flex;
     flex-wrap: wrap;
 }
@@ -19,26 +19,6 @@ article {
     height: 100%; /* Om er zeker van te zijn dat het artikel de volledige hoogte van zijn container inneemt */
 }
 
-h1, p {
+/* h1, p {
     flex: 1; /* Dit zorgt ervoor dat de titel en paragraaf de beschikbare ruimte opvullen */
-}
-
-
-
-/* X-Small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {}
-
-/* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media screen and (min-width: 1400px) {}
+} */ */
