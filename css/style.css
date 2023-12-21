@@ -8,6 +8,19 @@ figcaption {
     margin-top: 10px;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Makes the image a block element */
+    margin-left: auto; /* Auto margin on the left */
+    margin-right: auto; /* Auto margin on the right */
+}
+
+
+
+
+
+
 /* .row {
     display: flex;
     flex-wrap: wrap;

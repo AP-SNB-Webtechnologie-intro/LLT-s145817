@@ -16,7 +16,7 @@
         defer></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<!-- class bij body om alle content op pagina te centeren-->
+
 
 <body>
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
@@ -63,9 +63,9 @@
             </div>
         </div>
     </nav>
-
+    <!-- Ik gebruik main tag als één container, in die container maak ik verschillende rijden met div en in die rijen verdeel ik twee containers met telkens informatie in. -->
     <main class="container">
-        <section class="row">
+        <div class="row">
             <div class="col-12 col-xl-6">
                 <figure>
                     <img class="rounded mx-auto d-block img-fluid" src="images/overzicht/nasa_overzicht.png"
@@ -73,7 +73,7 @@
                     <!--Title is als afbeelding niet kan laden, komt die tekst erop-->
                 </figure>
                 <a href="nasa.html">
-                    <h1 class="h3 text-center">NASA</h1>
+                    <p class="h3 text-center">NASA</p>
                 </a>
                 <p class="text-center">NASA is het Amerikaanse ruimteagentschap. Opgericht in 1958 voor ruimteonderzoek.
                     Verantwoordelijk voor bemande en onbemande missies. Pionier in ruimtevaart, wetenschap en
@@ -86,20 +86,20 @@
                         alt="Hubble Space Telescope" title="Hubble telescoop boven de aarde">
                 </figure>
                 <a href="hubble.html">
-                    <h2 class="h3 text-center">Hubble Telescope</h2>
+                    <p class="h3 text-center">Hubble Telescope</p>
                 </a>
                 <p class="text-center">De Hubble-telescoop, gelanceerd in 1990, cirkelt buiten de aardatmosfeer. Hij
                     biedt scherpe beelden van het heelal en heeft onze kosmische kennis vergroot.</p>
             </div>
-        </section>
-        <section class="row">
+        </div>
+        <div class="row">
             <div class="col-12 col-xl-6">
                 <figure>
                     <img class="rounded mx-auto d-block img-fluid" src="images/overzicht/jwbt_overzicht.png"
                         alt="James Webb Telescope" title="James Webb Telescoop 3D render">
                 </figure>
                 <a href="jwebbt.html">
-                    <h3 class="h3 text-center">James Webb Telescope</h3>
+                    <p class="h3 text-center">James Webb Telescope</p>
                 </a>
                 <p class="text-center">De James Webb-telescoop, gelanceerd in 2021, is Hubble's opvolger. Geplaatst op
                     een punt ver van de aarde, observeert het infraroodlicht en onthult diepere kosmische geheimen.</p>
@@ -110,21 +110,21 @@
                         alt="Juno Spacecraft" title="Juno spacecraft above Jupiter">
                 </figure>
                 <a href="juno.html">
-                    <h4 class="h3 text-center">Juno<br>Spacecraft</h4>
+                    <p class="h3 text-center">Juno<br>Spacecraft</p>
                 </a>
                 <p class="text-center">Juno is een NASA-sonde, gelanceerd in 2011, gericht op de studie van Jupiter.
                     Door dicht bij de reuzenplaneet te vliegen, verzamelt het data over zijn atmosfeer, magnetisch veld
                     en oorsprong.</p>
             </div>
-        </section>
-        <section class="row">
+        </div>
+        <div class="row">
             <div class="col-12 col-xl-6">
                 <figure>
                     <img class="rounded mx-auto d-block img-fluid" src="images/overzicht/europa_overzicht.png"
                         alt="Europa (Moon)" title="Europa, één van de grootste manen van Jupiter">
                 </figure>
                 <a href="europa.html">
-                    <h5 class="h3 text-center">Europa (Moon)</h5>
+                    <p class="h3 text-center">Europa (Moon)</p>
                 </a>
                 <p class="text-center">Europa is een van Jupiter's grootste manen, bekend om zijn ijsbedekte oppervlak.
                     Wetenschappers vermoeden dat er onder dit ijs een zoute oceaan schuilt, wat de mogelijkheid op
@@ -136,16 +136,17 @@
                         alt="Voyagersmissies" title="Foto van Voyager sonde">
                 </figure>
                 <a href="voyagers_missie.html">
-                    <h6 class="h3 text-center">Voyager Mission</h6>
+                    <p class="h3 text-center">Voyager Mission</p>
                 </a>
                 <p class="text-center">De Voyager-missies, gestart in 1977, omvatten twee ruimtevaartuigen (Voyager 1 en
                     2) die het zonnestelsel verkennen. Ze leveren gegevens over de buitenplaneten en zijn nu in de
                     interstellaire ruimte.</p>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer class="container-fluid text-center h6 small p-4">&copy; 2023 Jesse Boddaert</footer>
 </body>
-<!-- https://validator.w3.org controle 20/12/2023 OKE -->
+<!-- https://validator.w3.org controle 21/12/2023 OKE -->
+
 </html>
