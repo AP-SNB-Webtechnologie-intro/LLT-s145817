@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="d-flex justify-content-center align-items-center">
+<body>
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -62,25 +62,31 @@
             </div>
         </div>
     </nav>
-    <main>
-        <section class="container-fluid col-12 col-xl-6">
-            <article class="col-12 d-flex flex-column justify-content-center align-items-center">
+    <header class="pb-5">
+        <h1 class="display-4 text-center">The James Webb Telescope</h1>
+    </header>
+
+    <main class="container-fluid text-center">
+        <div class="row justify-content-center">
+            <article class="col-12 col-xl-6">
                 <figure>
-                    <img class="img-fluid rounded mx-auto" src="images/jwebbt/jwebbt_labnasa1.png"
+                    <img class="rounded mx-auto d-block img-fluid" src="images/jwebbt/jwebbt_labnasa1.png"
                         alt="James Webb Telescope" title="Technische foto van James Webb Telescope">
                     <figcaption>Webb tijdens opbouw bij NASA</figcaption>
                     <!--Title is als afbeelding niet kan laden, komt die tekst erop-->
                 </figure>
-                <h1>James Webb Space Telescope</h1>
+                <h2 class="h3">James Webb Space Telescope</h2>
                 <p>It studies every phase in the history of our Universe.</p>
-                <hr>
-                <h2>Achtergrond</h2>
+
+                <h3 class="h3">Achtergrond</h3>
                 <p>De JWST is ontwikkeld als samenwerking tussen NASA, ESA (Europese Ruimtevaartorganisatie) en CSA
                     (Canadian Space Agency). Het project begon in 1996 en heeft als doel een opvolger te zijn van de
                     Hubble Space Telescope, met de capaciteit om verder en duidelijker het universum in te kijken dan
-                    ooit tevoren.</p>
-                <h3>Technische specificaties:</h3>
-                <ul>
+                    ooit tevoren.
+                </p>
+
+                <h4 class="h3">Technische specificaties:</h4>
+                <ul class="text-start">
                     <li><strong>Spiegel: </strong>De Webb heeft een vergulde primaire spiegel met een diameter van 6,5
                         meter. Ter vergelijking: deze spiegel is bijna drie keer zo groot als die van de Hubble.</li>
                     <li><strong>Zonneklep: </strong>Een vijf-laags zonneklep beschermt de telescoop tegen de invloed van
@@ -88,11 +94,14 @@
                     <li><strong>Instrumenten: </strong> Het bevat vier belangrijke wetenschappelijke instrumenten:
                         NIRCam, NIRSpec, MIRI en FGS/NIRISS.</li>
                 </ul>
-                <h3>Lancering en locatie</h3>
+
+                <h5 class="h3">Lancering en locatie</h5>
                 <p>Anders dan de Hubble, die in een baan om de aarde is, bevindt de Webb zich op het tweede Lagrangepunt
                     (L2), ongeveer 1,5 miljoen kilometer van de aarde. Deze positie biedt een stabiele omgeving voor
-                    observaties.</p>
-                <h3>Uitdagingen en vertragingen</h3>
+                    observaties.
+                </p>
+
+                <h6 class="h3">Uitdagingen en vertragingen</h6>
                 <p>Het JWST-project is berucht vanwege zijn kostenoverschrijdingen en vertragingen. Oorspronkelijk
                     gepland voor lancering in 2007 met een budget van ongeveer 1 miljard dollar, werd de telescoop
                     uiteindelijk gelanceerd in 2021 met kosten die meer dan 10 miljard dollar bedroegen.</p>
@@ -100,71 +109,71 @@
                     het universum op revolutionaire wijze zal verdiepen en uitbreiden. Het is ontworpen om enkele van de
                     meest uitdagende vragen in de moderne kosmologie te beantwoorden.</p>
             </article>
-        </section>
-        <section class="container-fluid col-12 col-xl-6">
-            <article class="col-12 d-flex flex-column justify-content-center align-items-center">
-                <figure>
-                    <img class="img-fluid rounded mx-auto" src="images/jwebbt/cosmic_cliff.png" alt="Cosmic Cliffs"
-                        title="Cosmic Cliffs">
+
+            <div class="row justify-content-center">
+                <figure class="col-12 col-xl-6">
+                    <img class="rounded mx-auto d-block img-fluid" src="images/jwebbt/cosmic_cliff.png"
+                        alt="Cosmic Cliffs" title="Cosmic Cliffs">
                     <figcaption>Cosmic Cliffs, the region is actually the edge of a gigantic, gaseous cavity within NGC
-                        3324, roughly 7,600 light-years away.</figcaption>
+                        3324, roughly 7600 light-years away.</figcaption>
                     <!--Title is als afbeelding niet kan laden, komt die tekst erop-->
                 </figure>
-            </article>
-        </section>
-        <section class="container-fluid col-12 col-xl-4">
-            <table class="table table-bordered table-striped">
-                <thead>
-                    <tr>
-                        <th class="text-center" scope="col">Kenmerk</th>
-                        <th class="text-center" scope="col">Omschrijving</th>
-                        <th class="text-center" scope="col">Details</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th class="text-start" scope="row">Primaire Spiegel</th>
-                        <td class="text-start">Vergulde spiegel</td>
-                        <td class="text-start">6,5 meter diameter</td>
-                    </tr>
-                    <tr>
-                        <th class="text-start" scope="row">Locatie</th>
-                        <td class="text-start">Lagrangepunt (L2)</td>
-                        <td class="text-start">Ongeveer 1,5 miljoen kilometer van de aarde</td>
-                    </tr>
-                    <tr>
-                        <th class="text-start" scope="row">Focus</th>
-                        <td class="text-start">Infraroodtelescoop</td>
-                        <td class="text-start">Bekijkt het vroege universum, stervorming, exoplaneten, en ons
-                            zonnestelsel</td>
-                    </tr>
-                    <tr>
-                        <th class="text-start" scope="row">Lancering</th>
-                        <td class="text-start">Oorspronkelijk gepland</td>
-                        <td class="text-start">2007</td>
-                    </tr>
-                    <tr>
-                        <th class="text-start" scope="row">Daadwerkelijke Lancering</th>
-                        <td class="text-start">Uiteindelijke datum</td>
-                        <td class="text-start">2021</td>
-                    </tr>
-                    <tr>
-                        <th class="text-start" scope="row">Kosten</th>
-                        <td class="text-start">Oorspronkelijk budget</td>
-                        <td class="text-start">$1 miljard</td>
-                    </tr>
-                    <tr>
-                        <th class="text-start" scope="row">Daadwerkelijke Kosten</th>
-                        <td class="text-start">Uiteindelijke kosten</td>
-                        <td class="text-start">Meer dan $10 miljard</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-6">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-center" scope="col">Kenmerk</th>
+                            <th class="text-center" scope="col">Omschrijving</th>
+                            <th class="text-center" scope="col">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="text-start" scope="row">Primaire Spiegel</th>
+                            <td class="text-start">Vergulde spiegel</td>
+                            <td class="text-start">6,5 meter diameter</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start" scope="row">Locatie</th>
+                            <td class="text-start">Lagrangepunt (L2)</td>
+                            <td class="text-start">Ongeveer 1,5 miljoen kilometer van de aarde</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start" scope="row">Focus</th>
+                            <td class="text-start">Infraroodtelescoop</td>
+                            <td class="text-start">Bekijkt het vroege universum, stervorming, exoplaneten, en ons
+                                zonnestelsel</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start" scope="row">Lancering</th>
+                            <td class="text-start">Oorspronkelijk gepland</td>
+                            <td class="text-start">2007</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start" scope="row">Daadwerkelijke Lancering</th>
+                            <td class="text-start">Uiteindelijke datum</td>
+                            <td class="text-start">2021</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start" scope="row">Kosten</th>
+                            <td class="text-start">Oorspronkelijk budget</td>
+                            <td class="text-start">$1 miljard</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start" scope="row">Daadwerkelijke Kosten</th>
+                            <td class="text-start">Uiteindelijke kosten</td>
+                            <td class="text-start">Meer dan $10 miljard</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+        </div>
     </main>
-
-
-
+    <footer class="container-fluid text-center h6 small p-4">&copy; 2023 Jesse Boddaert</footer>
 </body>
-
+<!-- https://validator.w3.org controle 26/12/2023 OKE -->
 </html>
