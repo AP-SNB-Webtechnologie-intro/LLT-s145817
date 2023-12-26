@@ -15,23 +15,3 @@ figcaption {
     margin-left: auto; /* Auto margin on the left */
     margin-right: auto; /* Auto margin on the right */
 }
-
-
-
-
-
-
-/* .row {
-    display: flex;
-    flex-wrap: wrap;
-} */
-/*
-article {
-    display: flex;
-    flex-direction: column;
-    height: 100%; /* Om er zeker van te zijn dat het artikel de volledige hoogte van zijn container inneemt */
-}
-
-/* h1, p {
-    flex: 1; /* Dit zorgt ervoor dat de titel en paragraaf de beschikbare ruimte opvullen */
-} */ */
