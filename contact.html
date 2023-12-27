@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl-BE">
 
 <head>
     <!-- Required meta tags -->
@@ -20,7 +20,7 @@
     <!-- LEAFLET -->
     <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="anonymous" />
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="anonymous">
     <!-- voeg het mapStyle.css bestand toe. Hierin zetten we alle css specifiek voor de kaart -->
     <link rel="stylesheet" href="./css/mapStyle.css">
     <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
@@ -30,7 +30,7 @@
     <script src="./js/contact_map.js" defer></script>
 </head>
 
-<body class="d-flex justify-content-center align-items-center">
+<body>
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -75,75 +75,99 @@
             </div>
         </div>
     </nav>
-    <div class="container col-xl-6">
-        <div class="row">
-            <main class="col-md-9">
-                <section id="contact" class="row">
-                    <div class="col-12">
-                        <h2 class="text-uppercase fs-4 fw-bolder pt-3">contact</h2>
-                        <p>Neem contact op met ons</p>
-                    </div>
-                    <hr>
-                    <form action="#" method="post">
-                        <fieldset class="row g-3 mb-3">
-                            <legend class="text-uppercase fs-6 fw-bolder pt-3">gegevens</legend>
-                            <div class="col-12">
-                                <label for="contactWHO" class="form-label">Wie wenst u te contacteren?
-                                    <span>*</span></label>
-                                <select id="contactWHO" class="form-select">
-                                    <option value="Admin" selected>Administrator</option>
-                                    <option value="WebD">WebDesigner</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="firstName" class="form-label">voornaam <span>*</span></label>
-                                <input type="text" class="form-control" id="firstName" required>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="lastName" class="form-label">achternaam <span>*</span></label>
-                                <input type="text" class="form-control" id="lastName" required>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="mobile" class="form-label">mobiel</label>
-                                <input type="tel" class="form-control" id="mobile" placeholder="0471 23 45 67">
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="mail" class="form-label">e-mail <span>*</span></label>
-                                <input type="email" class="form-control" id="mail" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="bericht" class="form-label">bericht <span>*</span></label>
-                                <textarea class="form-control" id="bericht" name="bericht" rows="4" required></textarea>
-                            </div>
-                        </fieldset>
+    <header class="pb-5">
+        <h1 class="display-4 text-center">Contact Pagina</h1>
+    </header>
+
+
+    <main class="container-fluid text-center">
+        <div id="contact" class="row justify-content-center">
+            <div class="col-12 col-xl-6">
+                <p>Neem contact op met ons</p>
+            </div>
+            <hr>
+            <div class="col-12 col-xl-6">
+                <form action="#" method="post">
+                    <fieldset class="row g-3 mb-3">
+                        <legend class="text-uppercase fs-4 pt-3">vul hier jouw gegevens in</legend>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-primary">verzenden</button>
+                            <label for="contactWHO" class="form-label">Wie wenst u te contacteren?
+                                <span>*</span></label>
+                            <select id="contactWHO" class="form-select">
+                                <option value="Admin" selected>Administrator</option>
+                                <option value="WebD">WebDesigner</option>
+                            </select>
                         </div>
-
-                    </form>
-                </section>
-            </main>
-            <section>
-                <legend class="text-uppercase fs-6 fw-bolder pt-3">Adres</legend>
-                <address>
-                    <strong>Webtechnologie nv</strong><br>
-                    Montoyerstraat 51<br>
-                    1000 Brussel<br>
-                    Belgie<br>
-                </address>
-            </section>
-            <section class="mx-auto" id="map" class="row">
-                <div id="contactMap" class="col-12 mb-3"></div>
-            </section>
-
-
+                        <div class="col-12 col-xl-6">
+                            <label for="firstName" class="form-label">voornaam <span>*</span></label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <label for="lastName" class="form-label">achternaam <span>*</span></label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <label for="mobile" class="form-label">mobiel</label>
+                            <input type="tel" class="form-control" id="mobile" placeholder="0471 23 45 67">
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <label for="mail" class="form-label">e-mail <span>*</span></label>
+                            <input type="email" class="form-control" id="mail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bericht" class="form-label">bericht <span>*</span></label>
+                            <textarea class="form-control" id="bericht" name="bericht" rows="4" required></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="col-12 col-xl-12">
+                        <button type="submit" class="btn btn-primary">verzenden</button>
+                    </div>
+                </form>
+            </div>
+            <div class="pt-2">
+                <hr>
+            </div>
         </div>
-    </div>
 
 
+        <div class="row justify-content-center">
+            <h3 class="text-uppercase fs-4 fw-bolder p-2">Adresgegevens</h3>
+            <address class="col-12 col-xl-4">
+                <strong>Webtechnologie nv</strong><br>
+                <em>Hoofdzetel</em><br>
+                Montoyerstraat 51<br>
+                1000 Brussel<br>
+                Belgie<br>
+            </address>
+            <address class="col-12 col-xl-4">
+                <strong>Jesse Boddaert</strong><br>
+                <em>WebDesigner</em><br>
+                Ellermanstraat 33<br>
+                2060 Antwerpen<br>
+                Belgie<br>
+            </address>
+            <address class="col-12 col-xl-4">
+                <strong>Satya Nadella</strong><br>
+                <em>Administrator</em><br>
+                Montoyerstraat 51<br>
+                1000 Brussel<br>
+                Belgie<br>
+            </address>
+            <div class="p-2">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-6">
+                <div class="mx-auto" id="map">
+                    <div id="contactMap" class="col-12 col-xl-6"></div>
+                </div>
+            </div>
+        </div>
 
-
-
+    </main>
+    <footer class="container-fluid text-center h6 small p-4">&copy; 2023 Jesse Boddaert</footer>
 </body>
+<!-- https://validator.w3.org controle 27/12/2023 OKE -->
 
 </html>

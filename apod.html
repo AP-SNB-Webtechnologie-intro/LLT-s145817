@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+<!-- Alle tekst via API komt van NASA, dus is Amerikaans Engels en niet nl-BE zoals de rest van mijn website. -->
 
 <head>
     <!-- Required meta tags -->
@@ -20,15 +21,22 @@
     <script src="js/APOD.js"></script>
 </head>
 
-<body class="d-flex justify-content-center align-items-center">
-    <section class="container-fluid">
-        <article class="col-12 d-flex flex-column justify-content-center align-items-center">
-    <h1 id="apodTitle"></h1>
-    <img class="img-fluid" id="apodImage" src="" alt="NASA Astronomy Picture of the Day">
-        
+<body>
+    <header class="pb-5">
+        <h1 class="display-4 text-center" id="apodTitle"></h1>
+    </header>
+    <main class="container-fluid text-center">
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-6">
+                <img class="rounded mx-auto d-block img-fluid" id="apodImage" src=""
+                    alt="NASA Astronomy Picture of the Day">
+                <p id="apodText"></p>
+            </div>
+        </div>
         <button class="btn btn-sm btn-outline-secondary" onclick="history.back()">Go Back</button>
-    </article>
-    </section>
+    </main>
+    <footer class="container-fluid text-center h6 small p-4">&copy; 2023 Jesse Boddaert</footer>
 </body>
 
 </html>
