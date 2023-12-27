@@ -20,13 +20,13 @@
 
     <script src="js/APOD.js"></script>
 </head>
-
+<!-- Ook gebruik gemaakt van header tag voor title in te zetten, zodat opmaakt hetzelfde is met andere pagina's -->
 <body>
     <header class="pb-5">
         <h1 class="display-4 text-center" id="apodTitle"></h1>
     </header>
     <main class="container-fluid text-center">
-
+        <!-- Main tag is een container, die wordt opgedeeld in een row met div en in die div wordt mijn afbeelding geladen. Dit om juiste col te kunnen toevoegen -->
         <div class="row justify-content-center">
             <div class="col-12 col-xl-6">
                 <img class="rounded mx-auto d-block img-fluid" id="apodImage" src=""
@@ -35,8 +35,9 @@
             </div>
         </div>
         <button class="btn btn-sm btn-outline-secondary" onclick="history.back()">Go Back</button>
+        <!-- Go back button opgezocht online en dit zou de nieuwe correcte manier zijn om het te doen. -->
     </main>
     <footer class="container-fluid text-center h6 small p-4">&copy; 2023 Jesse Boddaert</footer>
 </body>
-
+<!-- https://validator.w3.org controle 27/12/2023 NIET OKE, want wil geen lege tags, maar dit moet zo omdat dit later wordt ingeladen door de API -->
 </html>

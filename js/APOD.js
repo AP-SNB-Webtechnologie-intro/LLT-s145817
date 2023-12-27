@@ -13,3 +13,4 @@ fetch(apiUrl)
         document.getElementById('apodText').textContent = data.explanation;
 
     })
+// Ik heb lang bezig geweest om deze JS te schrijven, ik begrijp het nog niet 100% maar het werkt wel.
